@@ -1,5 +1,5 @@
 > [!NOTE]
-> This is a starter template for VS Code extension powered by [Civet](https://civet.dev/). Based on gulp for full [debugging capability](https://code.visualstudio.com/docs/editor/debugging) via ts source layer in `src/` during development mode (Launch "Run Extension" or press <kbd>F5<kbd>)
+> This is a starter template for VS Code extension powered by [Civet](https://civet.dev/). Based on gulp for full [debugging capability](https://code.visualstudio.com/docs/editor/debugging) via ts source layer in `src/` during development mode (Launch "Run Extension" or press <kbd>F5</kbd>)
 
 # Hello World Test Sample
 
