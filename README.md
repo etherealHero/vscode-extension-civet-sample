@@ -1,3 +1,6 @@
+> [!NOTE]
+> This is a starter template for VS Code extension powered by [Civet](https://civet.dev/). Based on gulp for full [debugging capability](https://code.visualstudio.com/docs/editor/debugging) via ts source layer in `src/` during development mode
+
 # Hello World Test Sample
 
 This is the Hello World example with integration tests setup.

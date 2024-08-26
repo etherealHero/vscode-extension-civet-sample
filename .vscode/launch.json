@@ -6,13 +6,38 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Run Extension",
+			"name": "Launch Extension",
 			"type": "extensionHost",
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
 			"args": ["--extensionDevelopmentPath=${workspaceFolder}"],
 			"outFiles": ["${workspaceFolder}/out/**/*.js"],
-			"preLaunchTask": "npm: watch"
+			"preLaunchTask": "npm: watch",
+			"presentation": {
+				"hidden": true,
+			}
+		},
+		{
+			"type": "node",
+			"request": "attach",
+			"name": "Start Gulp",
+			"preLaunchTask": "npm: gulp",
+			"presentation": {
+				"hidden": true,
+			}
 		}
-	]
+	],
+	"compounds": [
+		{
+			"name": "Run Extension",
+			"configurations": [
+				"Launch Extension",
+				"Start Gulp"
+			],
+			"presentation": {
+				"order": 1
+			},
+			"stopAll": true,
+		}
+	],
 }

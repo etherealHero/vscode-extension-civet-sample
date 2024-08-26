@@ -15,6 +15,30 @@
 				"kind": "build",
 				"isDefault": true
 			}
-		}
+		},
+		{
+			"type": "npm",
+			"script": "gulp",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: gulp",
+			"detail": "Start Gulp",
+			"hide": true
+		},
+		{
+			"type": "npm",
+			"script": "resetenv",
+			"problemMatcher": [],
+			"label": "npm: resetenv",
+			"detail": "gulp resetenv"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "vscode-test"
+		},
 	]
 }
