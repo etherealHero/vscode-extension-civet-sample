@@ -17,5 +17,5 @@ https://github.com/microsoft/vscode-extension-samples/assets/2230985/d9253b37-53
 - Install the [VS Code Extension Test Runner](https://marketplace.visualstudio.com/items?itemName=ms-vscode.extension-test-runner)
 - Start a task `npm: watch` to compile the code
 - Run tests, either by:
-	- Using the Test Explorer view, or
-	- By running `npm run test` con the commpand line
+  - Using the Test Explorer view, or
+  - By running `npm run test` con the commpand line
